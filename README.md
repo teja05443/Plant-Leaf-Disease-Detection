@@ -5,6 +5,21 @@
 
 This project demonstrates how to use AWS Rekognition Custom Labels for detecting plant leaf diseases. The model is trained using a dataset of 5000+ images from Roboflow and is integrated with a Python application leveraging the Boto3 library and AWS Cloud9.
 
+## Dataset
+- **Total Images**: 1608
+- **Annotations**: COCO format
+- **Pre-processing Applied**:
+  - Auto-orientation of pixel data (with EXIF-orientation stripping)
+  - Resize to 640x640 (Stretch)
+
+- **Augmentation Applied**:
+  - 90-degree rotations: none, clockwise, counter-clockwise
+  - Random rotation between -15 and +15 degrees
+  - Random shear between -10° and +10° horizontally and -10° and +10° vertically
+  - Random brightness adjustment between -20% and +20%
+
+The Dataset can be downloaded from https://universe.roboflow.com/plant-disease-n10iv/plant-disease-detection-ryzqa/dataset/6
+
 ## Features
 - **Start the Model**: Start the AWS Rekognition Custom Labels model for inference.
 - **Detect Disease**: Detect plant leaf diseases by analyzing images stored in an S3 bucket.
