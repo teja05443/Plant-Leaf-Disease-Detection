@@ -30,6 +30,7 @@ This project demonstrates how to use AWS Rekognition Custom Labels for detecting
    pip install -r requirements.txt
 
 3. **Set Up AWS Credentials**
+Ensure that your AWS credentials are configured properly in a credentials.py file that is excluded from version control via .gitignore.
 
 **Acknowledgments**
 Thanks to Roboflow for the dataset.
