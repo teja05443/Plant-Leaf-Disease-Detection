@@ -26,11 +26,12 @@ This project demonstrates how to use AWS Rekognition Custom Labels for detecting
    cd plant-leaf-disease-detection
 
 2. **Install Dependencies**
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
 3. **Set Up AWS Credentials**
 
-4. **Acknowledgments**
+**Acknowledgments**
 Thanks to Roboflow for the dataset.
 AWS Rekognition for providing powerful image recognition capabilities.
 
