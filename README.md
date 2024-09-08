@@ -18,12 +18,11 @@ This project demonstrates how to use AWS Rekognition Custom Labels for detecting
   - Random shear between -10° and +10° horizontally and -10° and +10° vertically
   - Random brightness adjustment between -20% and +20%
 
-The Dataset can be downloaded from https://universe.roboflow.com/plant-disease-n10iv/plant-disease-detection-ryzqa/dataset/6
 ### Dataset Setup
 
 1. **Download the Dataset**
 
-   Download the dataset from Roboflow or the provided source.
+   Download the dataset from https://universe.roboflow.com/plant-disease-n10iv/plant-disease-detection-ryzqa/dataset/6
 
 2. **Place the Dataset in the Project**
 
