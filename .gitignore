@@ -1,0 +1,10 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+# AWS credentials
+Credentials.py
