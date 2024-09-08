@@ -1,6 +1,5 @@
 # README.md
 
-"""
 # Plant Leaf Disease Detection using AWS Rekognition
 
 This project demonstrates how to use AWS Rekognition Custom Labels for detecting plant leaf diseases. The model is trained using a dataset of 5000+ images from Roboflow and is integrated with a Python application leveraging the Boto3 library and AWS Cloud9.
@@ -65,5 +64,4 @@ AWS Rekognition for providing powerful image recognition capabilities.
 
 You can copy the entire content into a Python file (e.g., `project.py`). The `README.md` is embedded as a multi-line string at the top, and all the Python scripts are included within the same file.
 
-"""
 
