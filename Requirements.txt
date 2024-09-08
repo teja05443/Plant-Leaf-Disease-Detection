@@ -1,0 +1,5 @@
+boto3==1.28.0
+Pillow==10.0.0
+
+boto3: The AWS SDK for Python, which allows you to interact with AWS services like Rekognition.
+Pillow: A Python Imaging Library fork, used for image processing (e.g., drawing bounding boxes on images).
